@@ -2,7 +2,7 @@
 Git & GitHub Workflow`
 
 1. Group Members
-   Name                 	ID	     GitHub Account
+   Name       ------------   	ID	   -----------  GitHub Account
    
 Muhammad Abdulgefar .... 	DDU1601169 ...... 	Algo-chan
 
