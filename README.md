@@ -8,9 +8,9 @@ Muhammad Abdulgefar .... 	DDU1601169 ...... 	Algo-chan
 
 Tamrat Dalasa -----   DDU1600691 -----   Eyhio-byte
 
-Wendatew Fkadu ----- RMD2489	-----     QXQQW
+Wendayew Fkadu ----- RMD2489	-----     QXQQW
 
-Tsagahun Fkru  ----DDU1600722   -----  tsega45789
+Tsagahun Fikru  ----DDU1600722   -----  tsega45789
 
 Habib Abdu  ----- DDU1501192 -----   Hab199
 
