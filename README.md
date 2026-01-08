@@ -1,56 +1,79 @@
-Version Control Using Git and GitHub – Step-by-Step Commands
+`Library Management System 
+Git & GitHub Workflow`
 
-Initialize Local Repository
+1. Group Members
+   Name                 	ID	     GitHub Account
+   
+Muhammad Abdulgefar  	DDU1601169  	Algo-chan
 
-Open the project in VS Code and initialize a local Git repository. This sets up Git tracking in your project folder:
+Tamrat Dalasa    DDU1600691     	Eyhio-byte
 
-**git init**
+Wendatew Fkadu 	 RMD2489	        QXQQW
 
-Create a .gitignore File
+Tsagahun Fkru   DDU1600722       tsega45789
 
-Add a .gitignore file to exclude compiled Java files (*.class) and other unnecessary files from version control.
-
-Stage and Commit Initial Files
-
-Add all project files to Git and commit them as the initial version:
-
-**git add .
-git commit -m "Initial commit - Java code generated from UML"**
-
-Link to Remote GitHub Repository
-
-Create a repository on GitHub and link it to your local repository:
-
-**git remote add origin https://github.com/Algo-chan/LibrarySystem.git**
-**git push -u origin main**
-
-Create a Feature Branch
-
-For implementing the Loan functionality, create a separate branch:
-
-**git checkout -b LoanManagement**
-
-Make Changes, Stage, and Commit
-
-Implement the Loan class functionality and add validations. Stage and commit the changes:
-
-**git add Loan.java**
-**git commit -m "updated code"**
-
-Push Feature Branch to GitHub
-
-Push the newly created branch to GitHub for collaboration or PR creation:
-
-**git push -u origin LoanManagement**
+Habib Abdu      DDU1501192       Hab199
 
 
-Create a Pull Request and Merge
+2. Version Control Steps
 
-On GitHub, open a Pull Request from LoanManagement to main, review the changes, and merge after approval.
+This project uses Git and GitHub to manage the Library Management System code. The workflow ensures collaborative development, proper tracking of changes, and safe merging of new features.
 
-Update Local Main Branch
+**Step 1:** Initialize Local Repository
 
-After merging, pull the latest changes to your local main branch:
+Open the project folder in VS Code and initialize Git:
 
-**git checkout main
-git pull origin main**
+git init
+
+
+Create a .gitignore file to ignore compiled Java files:
+
+*.class
+
+
+Stage and commit all initial files:
+
+git add .
+git commit -m "Initial commit - Java code generated from UML"
+
+**Step 2:** Link to Remote Repository
+
+Create a repository on GitHub and connect it to the local repository:
+
+git remote add origin https://github.com/Algo-chan/LibrarySystem.git
+git push -u origin main
+
+**Step 3:** Create a Feature Branch
+
+Create a separate branch for implementing Loan functionality:
+
+git checkout -b LoanManagement
+
+**Step 4:** Implement Features and Commit
+
+Make changes to the Loan class (methods like borrowBook and returnBook) and add validations. Stage and commit:
+
+git add Loan.java
+git commit -m "Complete Loan class with borrow and return functionality"
+
+
+Push the branch to GitHub:
+
+git push -u origin LoanManagement
+
+**Step 5:** Create Pull Request and Merge
+
+On GitHub:
+
+Open a Pull Request (PR) from LoanManagement to main.
+
+Review and approve the changes.
+
+Merge the PR into the main branch.
+
+Step 6: Update Local Main Branch
+
+After merging, synchronize the local main branch with remote:
+
+git checkout main
+git pull origin main
