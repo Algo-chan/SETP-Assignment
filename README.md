@@ -21,7 +21,7 @@ Link to Remote GitHub Repository
 
 Create a repository on GitHub and link it to your local repository:
 
-**git remote add origin https://github.com/YourUsername/LibrarySystem.git**
+**git remote add origin https://github.com/Algo-chan/LibrarySystem.git**
 **git push -u origin main**
 
 Create a Feature Branch
